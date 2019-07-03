@@ -158,6 +158,7 @@ h4 {
 
 h5 {
 	font-size: 18px;
+	text-align: center;
 }
 
 h6 {
@@ -2038,6 +2039,7 @@ label {
 .contact-text {
 	overflow: hidden;
 	padding-left: 12px;
+	text-align: center;
 }
 
 .contact-info ul li {
@@ -2065,6 +2067,15 @@ label {
 .contact-text span {
 	font-size: 14px;
 	color: #8a8a8a;
+}
+
+.contactInfo {
+	justify-content: center;
+}
+
+.contactInfoTitle,
+.contactInfoBody {
+	text-align: center;
 }
 
 /* 13. footer */
@@ -2208,7 +2219,6 @@ label {
 		-o-transform: scale(1);
 		transform: scale(1);
 	}
-
 }
 
 @keyframes ball-scale {
@@ -2229,11 +2239,7 @@ label {
 		-o-transform: scale(1);
 		transform: scale(1);
 	}
-
 }
-
-
-
 
 .bg-vid {
 	position: absolute;
@@ -2388,4 +2394,19 @@ label {
 	right: 0;
 	font-size: 13px;
 	color: #565656;
+}
+
+.skillsTitle {
+	text-align: center;
+}
+
+.skills-container {
+	padding: 0 30px 30px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.skillsContainer {
+		width: 80%;
+		margin: auto;
+	}
 }
